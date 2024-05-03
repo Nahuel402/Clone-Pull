@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registrar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <form action="validar.php" method="POST">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="text-center">REGIST</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <!-- username -->
+                            <div class="form-group my-2 p-2">
+                                <label class="form-label" for="">Username</label>
+                                <input class="form-control" type="text" name="ingresarR" id="nombre">
+                            </div>
+                            <!-- password -->
+                            <div class="form-group my-2 p-2">
+                                <label class="form-label " for="">Password</label>
+                                <input class="form-control" type="password1" name="pass" id="pass">
+                            </div>
+                            <div class="form-group my-2 p-2">
+                                <label class="form-label " for="">Confirm Password</label>
+                                <input class="form-control" type="password2" name="pass" id="pass">
+                            </div>
+                            <button class="btn btn-primary" name="ingresar"> Regist </button>
+                        </div>
+                    </div>
+
+                </form>
+
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
