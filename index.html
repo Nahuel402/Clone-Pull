@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+         
+            <div class="col-5 ">
+                <form action="validar.php" method="POST">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="text-center">LOGIN</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <!-- username -->
+                            <div class="form-group my-2 p-2">
+                                <label class="form-label" for="">Username</label>
+                                <input class="form-control" type="text" name="nombre" id="nombre">
+                            </div>
+                            <!-- password -->
+                            <div class="form-group my-2 p-2">
+                                <label class="form-label " for="">Password</label>
+                                <input class="form-control" type="password" name="pass" id="pass">
+                            </div>
+                            <button class="btn btn-primary" name="ingresar"> ingresar</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>
