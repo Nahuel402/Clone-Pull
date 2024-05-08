@@ -1,15 +1,10 @@
 <?php
-$Name="";
-$Password="";
-
-if(isset($_POST['ingresarR'])){
-    $Name=($_POST['ingresarR']);
-    $Password=($_POST[])
-}
-
+// registrar
+$nombre='car';
+$contraseña='car';
 
 if (isset($_POST['ingresar'])) {  
-    if (($_POST['nombre']== $Name) && ($_POST['pass']== $Password))
+    if (($_POST['nombreL'] == $nombre) && ($_POST['passL'] == $contraseña))
     echo"<h1>Has podido entrar</h1>";
 else{
 echo "no te hemos permitido acceder, pues no eres el admin";
